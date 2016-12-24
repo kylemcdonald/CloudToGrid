@@ -8,12 +8,10 @@ The Jonker-Volgenant algorithm implementation used here can fail when the differ
 
 ## Installation and Usage
 
-First, install numpy, scipy, sklearn, matplotlib, [pyLAPJV](https://x.st/code.html#pyLAPJV) and [hungarian](https://github.com/hrldcpr/hungarian):
+First, install numpy, scipy, sklearn, matplotlib, [pyLAPJV](https://x.st/code.html#pyLAPJV) and [hungarian](https://github.com/hrldcpr/hungarian) using the requirements file:
 
 ```
-$ pip install numpy scipy sklearn matplotlib
-$ pip install git+https://github.com/hrldcpr/pyLAPJV.git
-$ pip install git+https://github.com/hrldcpr/hungarian.git
+$ pip install -r requirements.txt
 ```
 
 Then clone this repository and run the example:
