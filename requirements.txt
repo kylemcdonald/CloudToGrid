@@ -2,5 +2,5 @@ numpy
 scipy
 sklearn
 matplotlib
-git+https://github.com/hrldcpr/pyLAPJV.git
+git+https://github.com/gatagat/lapjv.git
 git+https://github.com/hrldcpr/hungarian.git
