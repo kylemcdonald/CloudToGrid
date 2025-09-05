@@ -1,6 +1,18 @@
-numpy
-scipy
-sklearn
-matplotlib
-git+https://github.com/gatagat/lap.git
-git+https://github.com/hrldcpr/hungarian.git
+# Core dependencies
+numpy>=1.19.0
+scipy>=1.4.0
+scikit-learn>=0.24.0
+
+# Dimensionality reduction
+umap-learn>=0.5.1
+
+# Linear assignment solvers
+lap
+git+https://github.com/kylemcdonald/src-d-lapjv.git
+git+https://github.com/kylemcdonald/lapcsa.git
+
+# Deep learning
+torch>=1.8.0
+
+# Visualization
+matplotlib>=3.3.0
